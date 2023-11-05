@@ -1,0 +1,188 @@
+/* ---------- fonts link css part start ---------- */
+@font-face {
+    font-family: netflixSans-regula;
+    src: url(../fonts/NetflixSans-Regular.otf);
+}
+
+@font-face {
+    font-family: netflixSans-medium;
+    src: url(../fonts/NetflixSans-Medium.otf);
+}
+
+@font-face {
+    font-family: netflixSans-bold;
+    src: url(../fonts/NetflixSans-Bold.otf);
+}
+
+@font-face {
+    font-family: netflixSans-black;
+    src: url(../fonts/NetflixSans_Blk.ttf);
+}
+
+:root {
+    --regula_font: netflixSans-regula;
+    --medium_font: netflixSans-medium;
+    --bold_font: netflixSans-bold;
+    --black_font: netflixSans-black;
+    --brand_color: #e40e16
+}
+
+/* ---------- fonts link css part end ---------- */
+/* ---------- common css part start ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- fonts link css part end ---------- */
+/* ---------- nav bar css part start ---------- */
+.top_bar {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.navbar-brand img {
+    width: 156px;
+}
+
+.nav_button button {
+    border: none;
+    background: var(--brand_color);
+    width: 83px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: var(--regula_font);
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.nav_button button:hover {
+    background: #C11119;
+}
+
+/* ---------- nav bar css part end ---------- */
+/* ---------- banner css part start ---------- */
+#banner {
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 424px 0 190px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #262424 0%, rgba(27, 25, 25, 0.99) 0%, rgba(18, 16, 16, 0.00) 100%, rgba(18, 16, 16, 0.671) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner_head h1 {
+    font-size: 48px;
+    font-family: var(--black_font);
+    color: #fff;
+    text-align: center;
+}
+
+.banner_head h2 {
+    font-size: 24px;
+    font-family: var(--regula_font);
+    color: #fff;
+    text-align: center;
+    margin: 37px 0;
+}
+
+.banner_head h3 {
+    font-size: 20px;
+    font-family: var(--regula_font);
+    color: #fff;
+    text-align: center;
+}
+
+.get_started_input {
+    width: 972px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+    margin-top: 37px;
+}
+.get_started_input input{
+    width: 380px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: rgba(39, 37, 37, 0.70);
+    font-size: 14px;
+    font-family: var(--regula_font);
+    color: #fff;
+    padding: 5px 10px;
+}
+.get_started_input input::placeholder{
+    font-size: 14px;
+    font-family: var(--regula_font);
+    color: #fff;
+}
+.get_started_input input:focus{
+    border: 2px solid #fff;
+}
+.get_started_input button{
+    width: 215px;
+    height: 60px;
+    border-radius: 5px;
+    background: var(--brand_color);
+    border: none;
+    font-size: 24px;
+    font-family: var(--medium_font);
+    color: #fff;
+    transition:  all linear .3s;
+}
+.get_started_input button:hover{
+    background: #C11119;
+}
+/* ---------- banner css part end ---------- */
+/* ---------- fonts link css part start ---------- */
+
+
+
+/* ---------- fonts link css part end ---------- */
+/* ---------- fonts link css part start ---------- */
+
+
+
+/* ---------- fonts link css part end ---------- */
