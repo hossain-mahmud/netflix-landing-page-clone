@@ -59,6 +59,10 @@ ol {
     padding: 0;
 }
 
+body {
+    background: #000;
+}
+
 /* ---------- fonts link css part end ---------- */
 /* ---------- nav bar css part start ---------- */
 .top_bar {
@@ -142,7 +146,8 @@ ol {
     margin: 0 auto;
     margin-top: 37px;
 }
-.get_started_input input{
+
+.get_started_input input {
     width: 380px;
     height: 60px;
     border-radius: 5px;
@@ -153,15 +158,18 @@ ol {
     color: #fff;
     padding: 5px 10px;
 }
-.get_started_input input::placeholder{
+
+.get_started_input input::placeholder {
     font-size: 14px;
     font-family: var(--regula_font);
     color: #fff;
 }
-.get_started_input input:focus{
-    border: 2px solid #fff;
+
+.get_started_input input:focus {
+    border: 3px solid #fff;
 }
-.get_started_input button{
+
+.get_started_input button {
     width: 215px;
     height: 60px;
     border-radius: 5px;
@@ -170,17 +178,53 @@ ol {
     font-size: 24px;
     font-family: var(--medium_font);
     color: #fff;
-    transition:  all linear .3s;
+    transition: all linear .3s;
 }
-.get_started_input button:hover{
+
+.get_started_input button:hover {
     background: #C11119;
 }
+
 /* ---------- banner css part end ---------- */
-/* ---------- fonts link css part start ---------- */
+/* ---------- enjoy css part start ---------- */
+#enjoy {
+    padding: 128px 0 100px 0;
+    border-top: 9px solid #232323;
+    border-bottom: 9px solid #232323;
+}
 
+.enjoy_texts {
+    margin-top: 143px;
+}
 
+.enjoy_texts h2 {
+    font-size: 48px;
+    font-family: var(--black_font);
+    color: #fff;
+    margin-bottom: 27px;
+}
 
-/* ---------- fonts link css part end ---------- */
+.enjoy_texts p {
+    font-size: 24px;
+    font-family: var(--regula_font);
+    color: #fff;
+}
+
+.enjoy_image {
+    width: 100%;
+    position: relative;
+
+}
+
+.enjoy_image video {
+    overflow: hidden;
+    position: absolute;
+    top: 96px;
+    left: 75px;
+    z-index: -1;
+}
+
+/* ---------- enjoy css part end ---------- */
 /* ---------- fonts link css part start ---------- */
 
 
