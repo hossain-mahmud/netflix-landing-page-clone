@@ -343,6 +343,7 @@ body {
 .accordion-body {
     padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
     margin: 20px 0;
+    color: #fff;
 }
 .accordion-button:focus {
     box-shadow: none;
