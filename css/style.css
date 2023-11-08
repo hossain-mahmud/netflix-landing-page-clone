@@ -310,18 +310,7 @@ body {
     font-family: var(--black_font);
     color: #fff;
     text-align: center;
-}
-
-.accordion-button::after {
-    flex-shrink: 0;
-    width: var(--bs-accordion-btn-icon-width);
-    height: var(--bs-accordion-btn-icon-width);
-    margin-left: auto;
-    content: "";
-    background-image: var(--bs-accordion-btn-icon);
-    background-repeat: no-repeat;
-    background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
+    margin-bottom: 92px;
 }
 
 .accordion-item {
@@ -335,10 +324,14 @@ body {
 }
 
 .accordion-body {
+    font-size: 24px;
+    font-family: var(--regula_font);
     margin: 20px 0;
     color: #fff;
 }
-
+.accordion-body span{
+    display: block;
+}
 .accordion-button:focus {
     box-shadow: none;
 }
@@ -346,6 +339,7 @@ body {
 .accordion-button {
     padding: 20px;
     font-size: 24px;
+    font-family: var(--regula_font);
     color: #fff;
     text-align: left;
 }
@@ -359,13 +353,16 @@ body {
 .accordion-flush .accordion-item {
     border: none;
 }
+
 .accordion-button::after {
-    background-image:url(../images/icon1.png);
+    background-image: url(../images/icon1.png);
 }
+
 .accordion-button:not(.collapsed)::after {
     background-image: url(../images/icon2.png);
     transform: rotate(-45deg);
 }
+
 /* ---------- questions css part end ---------- */
 /* ---------- download css part start ---------- */
 
