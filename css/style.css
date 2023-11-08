@@ -329,9 +329,11 @@ body {
     margin: 20px 0;
     color: #fff;
 }
-.accordion-body span{
+
+.accordion-body span {
     display: block;
 }
+
 .accordion-button:focus {
     box-shadow: none;
 }
@@ -362,39 +364,66 @@ body {
     background-image: url(../images/icon2.png);
     transform: rotate(-45deg);
 }
-.questions_input h2{
+
+.questions_input h2 {
     margin-top: 80px;
     font-size: 20px;
     font-family: var(--regula_font);
     color: #fff;
     text-align: center;
 }
+
 /* ---------- questions css part end ---------- */
 /* ---------- footer css part start ---------- */
-#footer{
+#footer {
     padding: 90px 0;
 }
-.footer_head_text a{
+
+.footer_head_text a {
     font-size: 16px;
     font-family: var(--medium_font);
     color: #b3b3b3b3;
     text-decoration: underline;
     margin-bottom: 32px;
 }
-.footer_list ul{
+
+.footer_list ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.footer_list ul li a{
+
+.footer_list ul li a {
     font-size: 14px;
     font-family: var(--regula_font);
     color: #b3b3b3b3;
     text-decoration: underline;
 }
+.language_chang{
+    margin-top: 30px;
+}
+.form-select {
+    width: 130px;
+    height: 33px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-family: var(--regula_font);
+    color: #fff;
+    background: rgba(39, 37, 37, 0.70);
+    background-image: url(../images/arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 18px 9px;
+}
+
+.form-select:focus {
+    border-color: #fff;
+    box-shadow: none;
+}
+.footer_text p{
+    font-size: 14px;
+    font-family: var(--regula_font);
+    color: #b3b3b3b3;
+    margin-top:20px ;
+}
 /* ---------- footer css part end ---------- */
-/* ---------- download css part start ---------- */
-
-
-
-/* ---------- download css part end ---------- */
