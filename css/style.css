@@ -362,13 +362,37 @@ body {
     background-image: url(../images/icon2.png);
     transform: rotate(-45deg);
 }
-
+.questions_input h2{
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: var(--regula_font);
+    color: #fff;
+    text-align: center;
+}
 /* ---------- questions css part end ---------- */
-/* ---------- download css part start ---------- */
-
-
-
-/* ---------- download css part end ---------- */
+/* ---------- footer css part start ---------- */
+#footer{
+    padding: 90px 0;
+}
+.footer_head_text a{
+    font-size: 16px;
+    font-family: var(--medium_font);
+    color: #b3b3b3b3;
+    text-decoration: underline;
+    margin-bottom: 32px;
+}
+.footer_list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer_list ul li a{
+    font-size: 14px;
+    font-family: var(--regula_font);
+    color: #b3b3b3b3;
+    text-decoration: underline;
+}
+/* ---------- footer css part end ---------- */
 /* ---------- download css part start ---------- */
 
 
