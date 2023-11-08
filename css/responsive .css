@@ -1,0 +1,115 @@
+/* ====== extra Small device responsive start ====== */
+@media (max-width: 574.98px) {
+
+    /* ---------- nav bar css part start ---------- */
+    .navbar-brand img {
+        width: 114px;
+    }
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        padding: 0 18px;
+    }
+
+    /* ---------- nav bar css part end ---------- */
+    /* ---------- banner css part start ---------- */
+    #banner {
+        padding: 150px 0 85px 0;
+    }
+
+    .banner_head h1 {
+        font-size: 32px;
+    }
+
+    .banner_head h2 {
+        font-size: 18px;
+    }
+
+    .banner_head h3 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .get_started_input {
+        width: 100%;
+    }
+    /* ---------- banner css part end ---------- */
+    /* ---------- enjoy css part start ---------- */
+    #enjoy {
+        padding: 38px 0 49px 0;
+    }
+    .enjoy_texts {
+        margin-top: 0;
+        text-align: center;
+    }
+    .enjoy_texts h2 {
+        font-size: 32px;
+    }
+    .enjoy_texts p {
+        font-size: 18px;
+    }
+    .enjoy_image video {
+        top: 43px;
+        left: 0px;
+        width: 100%;
+    }
+    /* ---------- enjoy css part end ---------- */
+
+
+
+    /* ---------- nav bar css part start ---------- */
+
+
+
+
+    /* ---------- nav bar css part end ---------- */
+
+
+
+    /* ---------- nav bar css part start ---------- */
+
+
+
+
+    /* ---------- nav bar css part end ---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* ------ extra Small device responsive end ------ */
+/* ====== Small device responsive start ====== */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+/* ------ Small device responsive end ------ */
+/* ====== medium device responsive start ====== */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+
+/* ------ medium device responsive end ------ */
